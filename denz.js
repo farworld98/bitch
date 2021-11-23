@@ -311,11 +311,11 @@ try {
 		}
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© Dcode Denpa_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = denz.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              denz.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `${NamaBot}`, "footerText": "*_© Dcode Denpa_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = denz.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/Dgt6JhzTvlmEor8Zz23fHx', "groupName": `${NamaBot}`, "footerText": "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             denz.relayWAMessage(grup)
         }
 		idttt = []
@@ -385,7 +385,7 @@ try {
 const ftok = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6281333782061@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -451,7 +451,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6281333782061-1617740713@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -472,7 +472,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6288213840883-1616169743@g.us",
+			"groupJid": "6281333782061-1617740713@g.us",
 			"inviteCode": `${tampilUcapan} ${pushname}`,
 			"groupName": `${tampilUcapan} ${pushname}`, 
             "caption": `${tampilUcapan} ${pushname}`, 
@@ -484,7 +484,7 @@ const finv = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "6289643739077-1613049930@g.us",
+      "remoteJid": "6281333782061-1617740713@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -509,7 +509,7 @@ const fgi = {
 	 key: { 
          fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6281333782061-1617740713@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -527,7 +527,7 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6281333782061-1617740713@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -542,7 +542,7 @@ const fvoc = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "6281333782061-1617740713@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {
@@ -565,7 +565,7 @@ imageMessage: {
     };
 /// VIEW ONCE VID
 const foncevid = { 
-key: {fromMe: false, remoteJid: "6281315995629@g.us", participant: '0@s.whatsapp.net'}, 
+key: {fromMe: false, remoteJid: "6281333782061@g.us", participant: '0@s.whatsapp.net'}, 
 message: { 
   videoMessage: { 
   viewOnce: true
@@ -581,7 +581,7 @@ message: {
                             itemCount : 2021,
                             status: 1,
                             surface : 1,
-                            message: `Developed by Denis Putra`, //Kasih namalu
+                            message: `Developed by 𝐹𝑎𝑗𝑎𝑟 𝐴𝑙𝑓𝑎𝑟𝑖𝑧𝑖`, //Kasih namalu
                             thumbnail: fs.readFileSync('./media/image/icon.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -662,7 +662,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Dcode Denpa_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -675,7 +675,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Dcode Denpa_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -739,7 +739,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
 	        denz.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {contextInfo: {"mentionedJid": ane}})
             }
 		const reply = (teks) => {
-			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/6285866295942?text=Assalamualaikum`}}})
+			denz.sendMessage(from, teks, text, { thumbnail: dfrply, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/6281333782061?text=Assalamualaikum`}}})
 		}
 		const simir = (teks) => {
 			denz.sendMessage(from, teks, text, { quoted:ftrol })
@@ -919,7 +919,7 @@ if (autorecording) {
 denz.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('Denz')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Dcode Denpa_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
 reply('http://instagram.com/dcodedenpa')
@@ -1010,13 +1010,13 @@ reply('http://youtube.com/dcodedenpa')
 ╾ _Bio : ${stst}_
 ╾ _Nomor : @${stod.split('@')[0]}_
 ╾ _Info Nomor : ${num.line_type} - ${num.country_name} - ${num.carrier}_`
-sendButDocument(from, `${menu}`, "*_© Dcode Denpa_*", fs.readFileSync('./sampah/Denpa'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/image/banner.jpg'), filename:`${jmn} - ${week} - ${calender}`}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} ${pushname}`,body:`*click here to play music`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/uQiF1yOnzDg`}}})
+sendButDocument(from, `${menu}`, "𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右", fs.readFileSync('./sampah/Denpa'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/image/banner.jpg'), filename:`${jmn} - ${week} - ${calender}`}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,stod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${tampilUcapan} ${pushname}`,body:`*click here to play music`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/uQiF1yOnzDg`}}})
 break
 case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Dcode Denpa_*',
+ footerText: '𝐹 𝑎 𝑗 𝑎 𝑟 𝐴 𝑙 𝑓 𝑎 𝑟 𝑖 𝑧 𝑖 右',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -3765,7 +3765,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+     denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer 𝑀𝑒𝑔𝑢𝑚𝑖𝑛 𝐵𝑂𝑇",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6281333782061?text=Assalamualaikum"}}})
 	}
     }
     }

