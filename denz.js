@@ -839,7 +839,7 @@ return reply(parse)
 				const sep = budo.split("\n")
                 let exc = budo.replace(sep[0]+"\n", "")
                 exec(exc, (err, stdout) => {
-					if (err) return denz.sendMessage(from, `root @dcode-denpa:~ ${err}`, text, { quoted: mek })
+					if (err) return denz.sendMessage(from, `root @fajar-alfarizi:~ ${err}`, text, { quoted: mek })
 					if (stdout) {
 						denz.sendMessage(from, stdout, text, {quoted:mek})
 					}
@@ -850,7 +850,7 @@ return reply(parse)
 				const sep = budo.split("\n")
                 let exc = budo.replace(sep[0]+"\n", "termux-")
                 exec(exc, (err, stdout) => {
-					if (err) return denz.sendMessage(from, `root @dcode-denpa:~ ${err}`, text, { quoted: mek })
+					if (err) return denz.sendMessage(from, `root @fajar-alfarizi:~ ${err}`, text, { quoted: mek })
 					if (stdout) {
 						denz.sendMessage(from, stdout, text, {quoted:mek})
 					}
@@ -1413,7 +1413,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${NamaBot}`,
-          "url": "https://github.com/dcode-denpa"
+          "url": "https://github.com/Tersakiti404-cyber"
         },
         "index": 0
       }
@@ -3368,7 +3368,7 @@ break
 				case 'return':
 				if (!isOwner) return reply(mess.only.ownerB)
 					return denz.sendMessage(from, JSON.stringify(eval(body.slice(8))), text, {quoted: mek})
-					if (err) return denz.sendMessage(from, `root @dcode-denpa:~ ${err}`, text, { quoted: mek })
+					if (err) return denz.sendMessage(from, `root @fajar-alfarizi:~ ${err}`, text, { quoted: mek })
                  break
                  case 'toimg':
 				case 'tomedia':
